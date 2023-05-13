@@ -1,1 +1,2 @@
-
+Csapatunk a Szoftver projekt laboratórium tantárgy feladatát választotta, a Vak virológusos projekten fogunk dolgozni. A játékban lehet mezők közt lépkedni, tárgyakat felvenni, és mindehhez grafikus felület tartozik.
+Célunk egy átláthatóbb, szebb kódot és játékot létrehozni. Szeretnénk ellenőrizni a mostani funkcionalitásait, átláthatóságát, szintén mind a kód szempontjából, mind a felület egyszerűségéből nézve. Ezek után ha valamit úgy ítélünk, javítani, módosítani szeretnénk.
