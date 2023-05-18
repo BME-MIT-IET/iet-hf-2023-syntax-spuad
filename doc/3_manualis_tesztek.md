@@ -20,3 +20,7 @@ Manuálisan teszteltem azt az eshetőséget, mikor az összetevőkből eltehető
 ![](3_3.png)
 
 <sup>Hibás működés anyagraktár kiürítésekor</sup>
+
+# Eredmények és tanulságok összefoglalása:
+A szép, sokszínű grafika jó benyomást kelt a játékról, és szinte el is feledteti velünk a néha felbukkanó apró hibákat, bugg-okat. Azonban manuális teszteléssel, részletekig menő kézi átvizsgálással, megpróbálhatjuk a határokat feszegetni, kiugró feltételeket, végpontokat keresni, és azokat speciális helyzetekben vizsgálni. Meglepően sok funkcionális hiba, helytelen viselkedés található meg manuális teszteléssel, hiszen ezen esetekben lehet szép a kód, lefordulhat hibátlanul, a működés mégsem felel meg az elvártnak.
+Ezek javítása is véleményem szerint pont emiatt nehézkesebb, hisz az ok bárhol lehet, semmilyen jelzésünk nincs rá. Az összetett osztályrendszer vizsgálata, megértése jelentős időt vesz igénybe, mégis szükséges, hogy meg tudjuk érteni, milyen függvények kommunikálnak a mi keresett szituációnkban. Megtalálva a folyamatban részt vevő szereplőket, már könnyebben megérthetjük a talált hiba alapján, hogy vajon mi is lehet a baj, hol is kell javítani a kódon. 
