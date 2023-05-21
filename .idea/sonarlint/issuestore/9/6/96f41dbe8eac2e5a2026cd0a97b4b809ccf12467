@@ -1,0 +1,13 @@
+
+†
+java:S1319"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(™ý¬ƒ
+w
+java:S1319#"aThe type of "e" should be an interface such as "List" rather than the implementation "ArrayList".(ÂŽ’Â
+V	java:S125"<This block of commented-out lines of code should be removed.(ÿÝÜûÿÿÿÿ
+V	java:S125"<This block of commented-out lines of code should be removed.(¢ùŒóÿÿÿÿÿ
+g
+java:S1128"QRemove this unused import 'main.com.teamalfa.blindvirologists.city.fields.Field'.(ü¶³Œ
+p
+java:S1128"URemove this unused import 'main.com.teamalfa.blindvirologists.city.fields.SafeHouse'.(—ë›‘ùÿÿÿÿ
+p
+java:S1128"URemove this unused import 'main.com.teamalfa.blindvirologists.virologist.Virologist'.(«§ž©úÿÿÿÿ
