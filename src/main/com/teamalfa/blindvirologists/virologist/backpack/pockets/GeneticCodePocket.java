@@ -7,7 +7,7 @@ import java.util.ArrayList;
 
 public class GeneticCodePocket extends Pocket{
 
-    private ArrayList<GeneticCode> geneticCodes = new ArrayList<GeneticCode>();
+    private ArrayList<GeneticCode> geneticCodes = new ArrayList<>();
     private Backpack backpack;
 
     public GeneticCodePocket(Backpack b) {

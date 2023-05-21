@@ -87,7 +87,7 @@ public class Virologist {
         this.game = game;
     }
 
-    public List<GeneticCode> getProtectionBank() {
+    public ArrayList<GeneticCode> getProtectionBank() {
         return protectionBank;
     }
     public Field getField() {
@@ -102,7 +102,7 @@ public class Virologist {
         return backpack;
     }
     public Notifiable getGame() { return game; }
-    public List<Field> getDiscoveredFields() { return discoveredFields; }
+    public ArrayList<Field> getDiscoveredFields() { return discoveredFields; }
 
     public int getActions(){ return actions; }
     public void setActions(int num ) { actions = num; }
@@ -205,18 +205,14 @@ public class Virologist {
      * @return true if it was successful, false if it wasn't
      */
     public boolean pickUpEquipment(Equipment equipment) {
-        if(!isParalyzed() && actions > 0) {
-            if(field.canChangeEquipment()) {
-                SafeHouse safeHouse = (SafeHouse) field;
-                if (safeHouse.getEquipments().contains(equipment)) {
-                    if (backpack.add(equipment)) {
-                        equipment.setVirologist(this);
-                        safeHouse.remove(equipment);
-                        game.creativeNotify(equipment.getName() + " picked up.");
-                        actions--;
-                        return true;
-                    }
-                }
+        if(!isParalyzed() && actions > 0 && field.canChangeEquipment()) {
+            SafeHouse safeHouse = (SafeHouse) field;
+            if (safeHouse.getEquipments().contains(equipment) && backpack.add(equipment)) {
+                equipment.setVirologist(this);
+                safeHouse.remove(equipment);
+                game.creativeNotify(equipment.getName() + " picked up.");
+                actions--;
+                return true;
             }
         }
         return false;
@@ -411,14 +407,14 @@ public class Virologist {
 
 
     //getters
-    public List<Virus> getViruses() {
+    public ArrayList<Virus> getViruses() {
         return activeViruses;
     }
 
-    public List<Equipment> getWornEquipment() {
+    public ArrayList<Equipment> getWornEquipment() {
         return wornEquipment;
     }
-    public List<ActiveEquipment> getActiveEquipments() { return  activeEquipments; }
+    public ArrayList<ActiveEquipment> getActiveEquipments() { return  activeEquipments; }
 
     /**
      * Calls the field's (the one the virologist is currently standing on) destroy method.
@@ -608,7 +604,7 @@ public class Virologist {
      * Calls the field's (the one the virologist is currently standing on searchforvirologists method)
      * @return the method.
      */
-    public List<Virologist> searchForVirologist() {
+    public ArrayList<Virologist> searchForVirologist() {
         if(actions > 0) {
             actions--;
             return field.searchForVirologist(this);

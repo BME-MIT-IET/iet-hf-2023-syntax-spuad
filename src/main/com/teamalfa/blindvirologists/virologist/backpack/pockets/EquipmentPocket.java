@@ -11,11 +11,9 @@ public class EquipmentPocket extends Pocket{
 
     private Backpack backpack;
     private ArrayList<Equipment> equipmentHolder = new ArrayList<>();
-    //private int wornSize;
 
     public EquipmentPocket(Backpack b){
         backpack = b;
-        //wornSize = 3;
         maxSize = 5;
     }
 
@@ -42,7 +40,7 @@ public class EquipmentPocket extends Pocket{
      * @return true if it was successful, false if it wasn't.
      */
     public boolean add(Equipment equipment) {
-        Boolean ret = false;
+        boolean ret = false;
         if(equipmentHolder.size() < maxSize){
             equipmentHolder.add(equipment);
             ret = true;
