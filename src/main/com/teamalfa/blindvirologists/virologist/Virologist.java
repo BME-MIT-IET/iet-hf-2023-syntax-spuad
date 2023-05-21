@@ -17,6 +17,7 @@ import main.com.teamalfa.blindvirologists.virologist.backpack.ElementBank;
 
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.List;
 
 /**
  * Represents the virologist who is the player.
@@ -61,7 +62,7 @@ public class Virologist {
     /**
      * The max actions.
      */
-    private static final int maxActions = 5;
+    private static final int MAX_ACTIONS = 5;
 
     /**
      * Number of actions.
@@ -78,7 +79,7 @@ public class Virologist {
         protectionBank = new ArrayList<>();
         activeViruses = new ArrayList<>();
         backpack = new Backpack(this);
-        actions = maxActions;
+        actions = MAX_ACTIONS;
     }
 
     //getters setters
@@ -86,7 +87,7 @@ public class Virologist {
         this.game = game;
     }
 
-    public ArrayList<GeneticCode> getProtectionBank() {
+    public List<GeneticCode> getProtectionBank() {
         return protectionBank;
     }
     public Field getField() {
@@ -101,7 +102,7 @@ public class Virologist {
         return backpack;
     }
     public Notifiable getGame() { return game; }
-    public ArrayList<Field> getDiscoveredFields() { return discoveredFields; }
+    public List<Field> getDiscoveredFields() { return discoveredFields; }
 
     public int getActions(){ return actions; }
     public void setActions(int num ) { actions = num; }
@@ -110,7 +111,7 @@ public class Virologist {
      * Resets the action counter.
      */
     public void startTurn() {
-        actions = maxActions;
+        actions = MAX_ACTIONS;
         game.creativeNotify(name + "'s turn started.");
     }
 
@@ -334,7 +335,6 @@ public class Virologist {
      */
     public void search() {
         if(actions > 0 && !isParalyzed()) {
-            //field.searchedBy(this);
             actions--;
             discoveredFields.add(field);
             game.creativeNotify(name + " searched field.");
@@ -411,14 +411,14 @@ public class Virologist {
 
 
     //getters
-    public ArrayList<Virus> getViruses() {
+    public List<Virus> getViruses() {
         return activeViruses;
     }
 
-    public ArrayList<Equipment> getWornEquipment() {
+    public List<Equipment> getWornEquipment() {
         return wornEquipment;
     }
-    public ArrayList<ActiveEquipment> getActiveEquipments() { return  activeEquipments; }
+    public List<ActiveEquipment> getActiveEquipments() { return  activeEquipments; }
 
     /**
      * Calls the field's (the one the virologist is currently standing on) destroy method.
@@ -501,11 +501,11 @@ public class Virologist {
                 }
             }
             else {
-                game.creativeNotify("You can't rob " + e.getName() + ", because you are paralyzed.");
+                game.creativeNotify(youCantRob + e.getName() + youAreParalyzed);
                 return false;
             }
         }
-        game.creativeNotify("You can't rob " + e.getName() + ", because they are not paralyzed.");
+        game.creativeNotify(youCantRob + e.getName() + theyAreNotParalyzed);
         return false;
     }
 
@@ -530,11 +530,11 @@ public class Virologist {
                 }
             }
             else {
-                game.creativeNotify("You can't rob " + target.getName() + ", because you are paralyzed.");
+                game.creativeNotify(youCantRob + target.getName() + youAreParalyzed);
                 return false;
             }
         }
-        game.creativeNotify("You can't rob " + target.getName() + ", because they are not paralyzed.");
+        game.creativeNotify(youCantRob + target.getName() + theyAreNotParalyzed);
         return false;
     }
 
@@ -550,10 +550,10 @@ public class Virologist {
                 actorElementBank.add(targetElementBank);
                 game.creativeNotify("You robbed elements from " + target.getName() + ".");
             } else {
-                game.creativeNotify("You can't rob " + target.getName() + ", because you are paralyzed.");
+                game.creativeNotify(youCantRob + target.getName() + youAreParalyzed);
             }
         } else {
-            game.creativeNotify("You can't rob " + target.getName() + ", because they are not paralyzed.");
+            game.creativeNotify(youCantRob + target.getName() + theyAreNotParalyzed);
         }
     }
 
@@ -567,8 +567,8 @@ public class Virologist {
         if(f.canChangeEquipment() && actions > 0){
             boolean isParalysed = false;
             for (var vir : activeViruses) {
-                if (isParalysed == vir.affectUsage());
-                break;
+                if (isParalysed == vir.affectUsage())
+                    break;
             }
             if (!isParalysed) {
                 actions--;
@@ -608,12 +608,12 @@ public class Virologist {
      * Calls the field's (the one the virologist is currently standing on searchforvirologists method)
      * @return the method.
      */
-    public ArrayList<Virologist> searchForVirologist() {
+    public List<Virologist> searchForVirologist() {
         if(actions > 0) {
             actions--;
             return field.searchForVirologist(this);
         }
-        return null;
+        return new ArrayList<>();
     }
 
     /**
@@ -623,5 +623,10 @@ public class Virologist {
             TurnHandler.tick();
             game.creativeNotify(name + "'s turn ended");
     }
+
+    private static String youCantRob = "You can't rob "; 
+    private static String youAreParalyzed = ", because you are paralyzed.";
+    private static String theyAreNotParalyzed = ", because they are not paralyzed.";
+
 
 }
