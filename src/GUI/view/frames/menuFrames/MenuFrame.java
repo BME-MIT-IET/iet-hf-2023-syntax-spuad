@@ -25,6 +25,7 @@ public class MenuFrame extends JFrame implements ActionListener {
      * and how to play the game
      */
     JButton kittyButton;
+    boolean helpOpen = false;
 
     public MenuFrame() {
         this.setTitle("BV");
@@ -113,8 +114,14 @@ public class MenuFrame extends JFrame implements ActionListener {
             this.dispose();
         }
         else if(e.getSource() == kittyButton){
-            new HelpFrame();
+            if (!helpOpen){
+                setHelpOpen(true);
+                new HelpFrame(this);
+            }
         }
+    }
 
+    public void setHelpOpen(boolean value){
+        helpOpen = value;
     }
 }
