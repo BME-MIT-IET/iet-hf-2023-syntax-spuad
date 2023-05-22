@@ -59,7 +59,7 @@ public class MenuFrame extends JFrame implements ActionListener {
         playerSlider.setBounds(0,300,100,200);
 
         //The kitty button for the user manual
-        ImageIcon cicaIcon = new ImageIcon("resources/cicmic.gif");
+        ImageIcon cicaIcon = new ImageIcon("resources/cicmicWithHelp.gif");
         kittyButton = new JButton();
         kittyButton.addActionListener(this);
         kittyButton.setIcon(cicaIcon);
