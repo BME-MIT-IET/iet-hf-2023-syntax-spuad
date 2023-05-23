@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry excluding="main/com/teamalfa/blindvirologists/consoleController/random/" kind="src" path="src"/>
+	<classpathentry kind="src" path="src/main/com/teamalfa/blindvirologists/consoleController/random"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
