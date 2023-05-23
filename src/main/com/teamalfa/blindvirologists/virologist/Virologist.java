@@ -567,8 +567,7 @@ public class Virologist {
         if(f.canChangeEquipment() && actions > 0){
             boolean isParalysed = false;
             for (var vir : activeViruses) {
-                if (isParalysed == vir.affectUsage());
-                break;
+                if (isParalysed == vir.affectUsage()) break;
             }
             if (!isParalysed) {
                 actions--;
