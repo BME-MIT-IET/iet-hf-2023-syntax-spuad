@@ -1,0 +1,6 @@
+
+ˆ
+java:S1319"mThe type of "listOfOptions" should be an interface such as "List" rather than the implementation "ArrayList".(™ý£Êýÿÿÿÿ
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¼Ëù¨þÿÿÿÿ
+U
+java:S1118":Add a private constructor to hide the implicit public one.(öê¢ôøÿÿÿÿ
