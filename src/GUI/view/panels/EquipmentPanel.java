@@ -95,12 +95,12 @@ public class EquipmentPanel extends BaseBagPanel {
 
         // binds the views to slots
         int i = 0;
-        for (i = i; i < views.size(); i++) {
+        for (; i < views.size(); i++) {
             slots.get(i).setView(views.get(i));
         }
 
         // fill the rest with empty slots
-        for(i = i; i < slots.size(); i++)
+        for(; i < slots.size(); i++)
             slots.get(i).setView(null);
     }
 
