@@ -28,7 +28,7 @@ public class ElementView extends JButton implements View, ActionListener {
 
     /**
      * Ctr tab tab
-     * @param elementBank the elemnt it represents.
+     * @param elementBank the element it represents.
      */
     public ElementView(ElementBank elementBank) {
         setLayout(null);

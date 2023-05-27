@@ -17,10 +17,11 @@ public class RoundedOutlinedButton extends JButton {
         // The default color is black, whenever the cursor is above, change color to gray
         setBackground(Color.BLACK);
         addMouseListener(new java.awt.event.MouseAdapter() {
+            @Override
             public void mouseEntered(java.awt.event.MouseEvent evt) {
                 setBackground(Color.GRAY.darker().darker());
             }
-
+            @Override
             public void mouseExited(java.awt.event.MouseEvent evt) {
                 setBackground(Color.BLACK);
             }
