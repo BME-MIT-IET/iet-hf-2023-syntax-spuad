@@ -1,0 +1,16 @@
+
+‡
+java:S1319ç"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(üî¯Ú
+Œ
+java:S1319ë"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(×è‘íúÿÿÿÿ
+Œ
+java:S1319ï"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(èú©Úøÿÿÿÿ
+Œ
+java:S1319ò"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(ôóñğøÿÿÿÿ
+l
+java:S1128"QRemove this unnecessary import: java.lang classes are always implicitly imported.(Š‘…ûıÿÿÿÿ
+¯
+java:S6548"˜A Singleton implementation was detected. Make sure the use of the Singleton pattern is required and the implementation is the right one for the context.(±öÒ
+c	java:S1006"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ê£Òï
+m
+java:S3776}"RRefactor this method to reduce its Cognitive Complexity from 16 to the 15 allowed.(¨¦¨ûÿÿÿÿ
