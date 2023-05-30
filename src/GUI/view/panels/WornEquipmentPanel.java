@@ -101,6 +101,7 @@ public class WornEquipmentPanel extends JPanel implements View {
         ArrayList<Equipment> worn = virologist.getWornEquipment();
 
         // creating views and binding them to the slots
+
         for (int i = 0; i < 3; i++) {
             // if the slot is filled
             if (i < worn.size()) {

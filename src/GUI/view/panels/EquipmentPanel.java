@@ -73,6 +73,7 @@ public class EquipmentPanel extends BaseBagPanel {
         // it is important to make a shallow copy!
         ArrayList<Equipment> piecesOfEquipment = new ArrayList<>(equipmentPocket.getEquipmentHolder());
 
+
         // creates a view for each agent found in the agent pocket
         for (var eq : piecesOfEquipment) {
             if (eq instanceof Gloves) {
@@ -94,12 +95,12 @@ public class EquipmentPanel extends BaseBagPanel {
 
         // binds the views to slots
         int i = 0;
-        for (i = i; i < views.size(); i++) {
+        for (; i < views.size(); i++) {
             slots.get(i).setView(views.get(i));
         }
 
         // fill the rest with empty slots
-        for(i = i; i < slots.size(); i++)
+        for(; i < slots.size(); i++)
             slots.get(i).setView(null);
     }
 

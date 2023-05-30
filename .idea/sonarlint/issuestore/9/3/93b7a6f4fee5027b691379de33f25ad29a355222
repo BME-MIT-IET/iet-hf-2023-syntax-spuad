@@ -1,0 +1,6 @@
+
+‹
+java:S1319b"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(ß†³šúÿÿÿÿ
+¯
+java:S6548"˜A Singleton implementation was detected. Make sure the use of the Singleton pattern is required and the implementation is the right one for the context.(Žñ¦Î
+h	java:S100b"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ß†³šúÿÿÿÿ
