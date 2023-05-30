@@ -35,7 +35,8 @@ public class Backpack {
      */
     public boolean add(Equipment equipment) {
         boolean result = equipmentPocket.add(equipment);
-        virologist.getGame().creativeNotify(equipment.getName() + " added.");
+        if(result==true) virologist.getGame().creativeNotify(equipment.getName() + " added.");
+        else virologist.getGame().creativeNotify("EquipmentPocket is full.");
         return result;
     }
 
