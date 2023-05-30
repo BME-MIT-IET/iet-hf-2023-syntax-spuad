@@ -72,7 +72,7 @@ public class EquipmentPanel extends BaseBagPanel {
         views = new ArrayList<>();
         // it is important to make a shallow copy!
         ArrayList<Equipment> piecesOfEquipment = new ArrayList<>(equipmentPocket.getEquipmentHolder());
-        //ArrayList<Equipment> wornPiecesOfEquipment = TurnHandler.getActiveVirologist().getWornEquipment();
+
 
         // creates a view for each agent found in the agent pocket
         for (var eq : piecesOfEquipment) {

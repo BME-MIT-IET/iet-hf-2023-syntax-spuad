@@ -1,5 +1,6 @@
 
 9
+
 	README.md,8\e\8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
 {
 Ksrc/main/com/teamalfa/blindvirologists/virologist/backpack/ElementBank.java,2\f\2f0cbd1252fc8391dba11d0d0b09f23452ddf2d4
@@ -7,11 +8,11 @@ x
 Hsrc/main/com/teamalfa/blindvirologists/virologist/backpack/Backpack.java,1\0\10faafe288b6feaa0c713710da0e27470e54b4aa
 ~
 Nsrc/main/com/teamalfa/blindvirologists/virologist/backpack/pockets/Pocket.java,1\0\10cca664024911765bf31ed10ef2e8ae35c81130
-‡
+â€¡
 Wsrc/main/com/teamalfa/blindvirologists/virologist/backpack/pockets/EquipmentPocket.java,9\6\96f41dbe8eac2e5a2026cd0a97b4b809ccf12467
-‰
+â€°
 Ysrc/main/com/teamalfa/blindvirologists/virologist/backpack/pockets/GeneticCodePocket.java,2\4\244298b20b6d8987cf840c477c4826be6a8293af
-ƒ
+Æ’
 Ssrc/main/com/teamalfa/blindvirologists/virologist/backpack/pockets/AgentPocket.java,4\6\462a79a9ca7354e84b8bb33619b3a09a9d14ea92
 t
 Dsrc/main/com/teamalfa/blindvirologists/turn_handler/TurnHandler.java,9\3\93b7a6f4fee5027b691379de33f25ad29a355222
@@ -37,9 +38,9 @@ Jsrc/main/com/teamalfa/blindvirologists/consoleController/ErrorPrinter.java,5\a
 Osrc/main/com/teamalfa/blindvirologists/consoleController/DoublePrintStream.java,1\8\180c028ad23de81de1c28842e2d7f34348adbbdd
 q
 Asrc/main/com/teamalfa/blindvirologists/virologist/Virologist.java,1\f\1fe972297e3e4623bb8935f7b60f40c4b3b47c65
-ˆ
+Ë†
 Xsrc/main/com/teamalfa/blindvirologists/equipments/active_equipments/ActiveEquipment.java,f\9\f9f3b3a3f7ad69bd10e239e3d5d29c76ac75bed0
-…
+â€¦
 Usrc/main/com/teamalfa/blindvirologists/consoleController/ConsoleControllerHelper.java,9\2\9205e825cc7dcb91d95cb8a1ba2e70cd99bd723d
 e
 5src/main/com/teamalfa/blindvirologists/city/City.java,4\f\4f413e1f8e1df73a5d10d5b6b15f048026959222
@@ -63,6 +64,7 @@ r
 Bsrc/main/com/teamalfa/blindvirologists/agents/virus/BearVirus.java,1\a\1ab86781a424f2ad1750ff0abe6dbccd3aedcf3f
 u
 Esrc/main/com/teamalfa/blindvirologists/agents/virus/AmnesiaVirus.java,6\e\6ef3b5dab108188238882768a12a364565825da4
+
 {
 Ksrc/main/com/teamalfa/blindvirologists/agents/genetic_code/AmnesiaCode.java,f\8\f8a1cd0e3d599a4bc0f0ae6bd64d9c847350906f
 v

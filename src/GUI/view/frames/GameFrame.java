@@ -131,7 +131,7 @@ public class GameFrame extends JFrame implements Notifiable {
      */
     public void updateView() {
         //Game ends if all virologists died
-        if(TurnHandler.GetOrder().size() == 0){
+        if(TurnHandler.GetOrder().isEmpty()){
             JOptionPane.showMessageDialog(null,"Everyone died","Game lost",JOptionPane.INFORMATION_MESSAGE);
             this.dispose();
         }

@@ -35,9 +35,10 @@ public class CloakInventoryView extends CloakView {
      */
     @Override
     public void actionPerformed(ActionEvent e) {
-        if(!isWorn)
-            if(TurnHandler.getActiveVirologist().getField().canChangeEquipment())
+        if(!isWorn) {
+            if (TurnHandler.getActiveVirologist().getField().canChangeEquipment())
                 popupMenu.show(this, 0, 0);
+        }
         else
             TurnHandler.getActiveVirologist().toggle(cloak);
     }

@@ -154,8 +154,6 @@ public class InventoryPanel extends JPanel implements View {
     /**
      * Doesn't do anything
      */
-    public void onClick() {
-        //TODO
-    }
+    public void onClick() {}
 
 }
