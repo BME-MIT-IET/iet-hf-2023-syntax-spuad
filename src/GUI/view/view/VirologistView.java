@@ -83,7 +83,6 @@ public class VirologistView extends JButton implements View, ActionListener {
      * Redraws the virologist's icon when the map is updated.
      */
     private void handleIcon(){
-        // ezt itt borzaszto szar igy nezzetek el
         String color = colorMap.get(virologist);
         ImageIcon icon;
         if(TurnHandler.GetOrder().contains(virologist)) {

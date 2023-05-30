@@ -5,7 +5,7 @@ import main.com.teamalfa.blindvirologists.consoleController.random.MyRandom;
 import java.util.Random;
 
 public class Cloak extends Equipment{
-    MyRandom random;
+    private Random helper = new Random();
 
     private final int protectionRate;
 
@@ -18,8 +18,9 @@ public class Cloak extends Equipment{
      * Tells if the cloak protected the virologist from an infection.
      * @return true if it did, false if it did not.
      */
+    @Override
     public boolean protect(){
-        boolean tmp = new Random().nextInt(1001) < protectionRate;
+        boolean tmp = helper.nextInt(1001) < protectionRate;
         if(tmp){
             virologist.getGame().creativeNotify("Infection blocked by cape");
         }

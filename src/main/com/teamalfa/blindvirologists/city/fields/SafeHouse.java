@@ -17,6 +17,7 @@ public class SafeHouse extends Field{
      * Adds an equipment to the SafeHouse.
      * @param equipment The equipment that was dropped down to the SafeHouse.
      */
+    @Override
     public void add(Equipment equipment) {
         equipments.add(equipment);
     }

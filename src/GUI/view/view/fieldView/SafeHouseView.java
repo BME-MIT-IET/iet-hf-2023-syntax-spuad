@@ -66,10 +66,8 @@ public class SafeHouseView extends FieldView{
      */
     @Override
     public void update() {
-        // remove all components from field
         removeAll();
-
-        // and update only if its current field
+        
         if(field.equals(TurnHandler.getActiveVirologist().getField())) {
             if(TurnHandler.getActiveVirologist().getDiscoveredFields().contains(field)) {
                 for (Virologist virologist : field.getVirologists()) {

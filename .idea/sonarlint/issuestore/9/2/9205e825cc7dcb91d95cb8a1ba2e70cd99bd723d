@@ -1,0 +1,74 @@
+
+ˆ
+java:S1319"mThe type of "GENETIC_CODES" should be an interface such as "List" rather than the implementation "ArrayList".(ïµˆĞøÿÿÿÿ
+†
+java:S1319"kThe type of "FIELD_TYPES" should be an interface such as "List" rather than the implementation "ArrayList".(·Ã‘ ùÿÿÿÿ
+Š
+java:S1319"oThe type of "EQUIPMENT_TYPES" should be an interface such as "List" rather than the implementation "ArrayList".(æú£àùÿÿÿÿ
+„
+java:S1319"nThe type of "FIELD_PREFIXES" should be an interface such as "List" rather than the implementation "ArrayList".(ÈÃèô
+‹
+java:S1319"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(­×î§üÿÿÿÿ
+…
+java:S1319"jThe type of "parameters" should be an interface such as "List" rather than the implementation "ArrayList".(­×î§üÿÿÿÿ
+†
+java:S1319"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(æÔì¤
+
+java:S1319"iThe type of "listOfIds" should be an interface such as "List" rather than the implementation "ArrayList".(æÔì¤
+z
+java:S1319"dThe type of "hashMap" should be an interface such as "Map" rather than the implementation "HashMap".(æÔì¤
+
+java:S1319&"dThe type of "hashMap" should be an interface such as "Map" rather than the implementation "HashMap".(ÆéÀÁùÿÿÿÿ
+„
+java:S13191"iThe type of "objectHolder" should be an interface such as "Map" rather than the implementation "HashMap".(Å¼ş¿ùÿÿÿÿ
+
+java:S13192"fThe type of "idCounter" should be an interface such as "Map" rather than the implementation "HashMap".(£Øöãùÿÿÿÿ
+{
+java:S1319G"eThe type of "input" should be an interface such as "List" rather than the implementation "ArrayList".(ë®ñœ
+€
+java:S1319X"eThe type of "input" should be an interface such as "List" rather than the implementation "ArrayList".(…¼’ùÿÿÿÿ
+€
+java:S1319i"eThe type of "input" should be an interface such as "List" rather than the implementation "ArrayList".(Ó‰”™ÿÿÿÿÿ
+€
+java:S1319}"eThe type of "input" should be an interface such as "List" rather than the implementation "ArrayList".(æúßçÿÿÿÿÿ
+|
+java:S1319„"eThe type of "input" should be an interface such as "List" rather than the implementation "ArrayList".(­û‹º
+€
+java:S1319ˆ"dThe type of "hashMap" should be an interface such as "Map" rather than the implementation "HashMap".(Ÿ¶ööúÿÿÿÿ
+Œ
+java:S1319"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(àıÜ€ÿÿÿÿÿ
+ƒ
+java:S1319"gThe type of "objects" should be an interface such as "List" rather than the implementation "ArrayList".(àıÜ€ÿÿÿÿÿ
+€
+java:S1319"dThe type of "hashMap" should be an interface such as "Map" rather than the implementation "HashMap".(àıÜ€ÿÿÿÿÿ
+~
+java:S1319"gThe type of "objects" should be an interface such as "List" rather than the implementation "ArrayList".(û”º¯
+{
+java:S1319"dThe type of "hashMap" should be an interface such as "Map" rather than the implementation "HashMap".(û”º¯
+‡
+java:S1319¢"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(éÌ¶£
+{
+java:S1319¢"dThe type of "list" should be an interface such as "List" rather than the implementation "ArrayList".(éÌ¶£
+|
+java:S1319¶"eThe type of "input" should be an interface such as "List" rather than the implementation "ArrayList".(œÉ†ú
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¼Ëù¨şÿÿÿÿ
+T
+java:S2589Ÿ"8Remove this expression which always evaluates to "false"(ğ‘ÉÜøÿÿÿÿ
+8
+java:S2386"Make this member "protected".(ïµˆĞøÿÿÿÿ
+8
+java:S2386"Make this member "protected".(·Ã‘ ùÿÿÿÿ
+8
+java:S2386"Make this member "protected".(æú£àùÿÿÿÿ
+3
+java:S2386"Make this member "protected".(ÈÃèô
+O
+java:S1118":Add a private constructor to hide the implicit public one.(ê”÷
+<
+java:S1168U"&Return an empty array instead of null.(¥¹ï
+<
+java:S1168f"&Return an empty array instead of null.(¥¹ï
+J
+java:S2864‰"4Iterate over the "entrySet" instead of the "keySet".(­­·W
+R	java:S125À"<This block of commented-out lines of code should be removed.(´¼‰
+T	java:S106Ó"9Replace this use of System.out or System.err by a logger.(Ë…•¬ûÿÿÿÿ
