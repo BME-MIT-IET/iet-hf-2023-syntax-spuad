@@ -25,6 +25,7 @@ public class MenuFrame extends JFrame implements ActionListener {
      * and how to play the game
      */
     JButton kittyButton;
+    boolean helpOpen = false;
 
     public MenuFrame() {
         this.setTitle("BV");
@@ -58,7 +59,7 @@ public class MenuFrame extends JFrame implements ActionListener {
         playerSlider.setBounds(0,300,100,200);
 
         //The kitty button for the user manual
-        ImageIcon cicaIcon = new ImageIcon("resources/cicmic.gif");
+        ImageIcon cicaIcon = new ImageIcon("resources/cicmicWithHelp.gif");
         kittyButton = new JButton();
         kittyButton.addActionListener(this);
         kittyButton.setIcon(cicaIcon);
@@ -113,8 +114,14 @@ public class MenuFrame extends JFrame implements ActionListener {
             this.dispose();
         }
         else if(e.getSource() == kittyButton){
-            new HelpFrame();
+            if (!helpOpen){
+                setHelpOpen(true);
+                new HelpFrame(this);
+            }
         }
+    }
 
+    public void setHelpOpen(boolean value){
+        helpOpen = value;
     }
 }

@@ -1,5 +1,6 @@
 package GUI.view.frames;
 
+import GUI.view.frames.menuFrames.MenuFrame;
 import GUI.view.panels.*;
 import GUI.view.view.VirologistView;
 import main.com.teamalfa.blindvirologists.city.City;
@@ -31,6 +32,10 @@ public class GameFrame extends JFrame implements Notifiable {
      * This panel gives a basic feedback of what is happening in the game
      */
     private final WhatHappenedPanel whatHappenedPanel;
+    /**
+     * Indicates if the game has ended
+     */
+    private boolean gameEnded = false;
     /**
      * The current view of the virologist
      */
@@ -132,12 +137,20 @@ public class GameFrame extends JFrame implements Notifiable {
     public void updateView() {
         //Game ends if all virologists died
         if(TurnHandler.GetOrder().isEmpty()){
-            JOptionPane.showMessageDialog(null,"Everyone died","Game lost",JOptionPane.INFORMATION_MESSAGE);
-            this.dispose();
+            if(!gameEnded){
+                gameEnded = true;
+                JOptionPane.showMessageDialog(null,"Everyone died","Game lost",JOptionPane.INFORMATION_MESSAGE);
+                this.dispose();
+                new MenuFrame();
+            }
         }
         if(TurnHandler.getActiveVirologist().getBackpack().getGeneticCodePocket().getGeneticCodes().size() == 4){
-            JOptionPane.showMessageDialog(null,"Congratulations! You won!","Game over",JOptionPane.INFORMATION_MESSAGE);
-            this.dispose();
+            if(!gameEnded) {
+                gameEnded = true;
+                JOptionPane.showMessageDialog(null, "Congratulations! You won!", "Game over", JOptionPane.INFORMATION_MESSAGE);
+                this.dispose();
+                new MenuFrame();
+            }
         }
         statusPanel.update();
         wornEquipmentPanel.update();

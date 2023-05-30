@@ -1,5 +1,6 @@
 package GUI.view.view.fieldView;
 
+import GUI.view.panels.MapPanel;
 import GUI.view.view.VirologistView;
 import GUI.view.view.equipmentView.*;
 import main.com.teamalfa.blindvirologists.city.fields.SafeHouse;
@@ -31,7 +32,7 @@ public class SafeHouseView extends FieldView{
      * ctr
      */
     public SafeHouseView(){
-        color = new Color(3, 18, 9);
+        color = MapPanel.getFieldColor();
         newImage = Toolkit.getDefaultToolkit().createImage("resources/SafeHouse1.png");
         backGround = newImage.getScaledInstance(200,200,Image.SCALE_DEFAULT);
         this.text = "safe";

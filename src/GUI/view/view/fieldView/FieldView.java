@@ -1,6 +1,7 @@
 package GUI.view.view.fieldView;
 
 import GUI.view.frames.GameFrame;
+import GUI.view.panels.MapPanel;
 import GUI.view.view.View;
 import GUI.view.view.VirologistView;
 import GUI.view.view.equipmentView.EquipmentView;
@@ -56,7 +57,7 @@ public class FieldView extends JPanel implements View, MouseListener {
      * ctr
      */
     public FieldView(){
-        color = new Color(3, 18, 9);
+        color = MapPanel.getFieldColor();
         newImage = Toolkit.getDefaultToolkit().createImage("resources/field1.png");
         backGround = newImage.getScaledInstance(198,198,Image.SCALE_DEFAULT);
         this.setOpaque(false);

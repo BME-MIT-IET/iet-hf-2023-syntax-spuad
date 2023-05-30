@@ -1,5 +1,6 @@
 package GUI.view.view.fieldView;
 
+import GUI.view.panels.MapPanel;
 import GUI.view.view.ElementView;
 import GUI.view.view.VirologistView;
 import main.com.teamalfa.blindvirologists.city.fields.StoreHouse;
@@ -25,7 +26,7 @@ public class StoreHouseView extends FieldView {
      * ctr
      */
     public StoreHouseView(){
-        color = new Color(3, 18, 9);
+        color = MapPanel.getFieldColor();
         newImage = Toolkit.getDefaultToolkit().createImage("resources/StoreHouse1.png");
         backGround = newImage.getScaledInstance(200,200,Image.SCALE_DEFAULT);
         this.text = "store";
