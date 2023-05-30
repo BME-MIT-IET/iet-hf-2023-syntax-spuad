@@ -4,6 +4,8 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.awt.event.WindowAdapter;
+import java.awt.event.WindowEvent;
 
 /**
  * On this frame the player can learn how to play
@@ -15,8 +17,10 @@ public class HelpFrame extends JFrame implements ActionListener {
      * to the main menu
      */
     JButton backButton;
+    MenuFrame menuFrame;
 
-    HelpFrame(){
+    HelpFrame(MenuFrame menuFrame){
+        this.menuFrame = menuFrame;
         this.setTitle("Help");
         this.setDefaultCloseOperation(DISPOSE_ON_CLOSE);
         this.setResizable(false);
@@ -95,6 +99,14 @@ public class HelpFrame extends JFrame implements ActionListener {
         this.add(backButton);
         this.add(textArea);
         this.repaint();
+
+        setDefaultCloseOperation(JFrame.DO_NOTHING_ON_CLOSE);
+        addWindowListener(new WindowAdapter() {
+            @Override
+            public void windowClosing(WindowEvent e) {
+                Close();
+            }
+        });
     }
 
     /**
@@ -104,8 +116,12 @@ public class HelpFrame extends JFrame implements ActionListener {
      */
     @Override
     public void actionPerformed(ActionEvent e) {
-        if(e.getSource() == backButton){
-            this.dispose();
-        }
+        if(e.getSource() == backButton)
+            Close();
+    }
+
+    private void Close(){
+        this.menuFrame.setHelpOpen(false);
+        this.dispose();
     }
 }
