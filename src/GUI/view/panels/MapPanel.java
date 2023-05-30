@@ -32,6 +32,14 @@ public class MapPanel extends JPanel implements View {
      */
     ArrayList<FieldView> neighbourFields;
 
+
+    /**
+     * @return Base color of the map
+     */
+    public static Color getFieldColor(){
+        return new Color(4, 73, 20);
+    }
+
     /**
      * Creates a map panel
      */

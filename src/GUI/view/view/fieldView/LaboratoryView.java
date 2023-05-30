@@ -1,5 +1,6 @@
 package GUI.view.view.fieldView;
 
+import GUI.view.panels.MapPanel;
 import GUI.view.view.VirologistView;
 import GUI.view.view.geneticCodeView.*;
 import main.com.teamalfa.blindvirologists.agents.genetic_code.*;
@@ -26,7 +27,7 @@ public class LaboratoryView extends FieldView{
      * ctr
      */
     public LaboratoryView(){
-        color = new Color(3, 18, 9);
+        color = MapPanel.getFieldColor();
         newImage = Toolkit.getDefaultToolkit().createImage("resources/lab.png");
         backGround = newImage.getScaledInstance(315,315,Image.SCALE_DEFAULT);
         this.text = "lab";
