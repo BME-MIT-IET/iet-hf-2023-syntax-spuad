@@ -14,7 +14,6 @@ public class TurnHandler {
     /**
      * Needed for singleton design pattern.
      */
-
     static {
       instance = new TurnHandler();
     }

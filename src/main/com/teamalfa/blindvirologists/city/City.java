@@ -41,7 +41,6 @@ public class City {
      * ctr
      */
     private City() {
-        //this.GenerateMap();
         allEquipment.add(new Gloves());
         allEquipment.add(new Axe());
         allEquipment.add(new Cloak());

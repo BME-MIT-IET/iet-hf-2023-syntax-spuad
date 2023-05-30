@@ -10,7 +10,7 @@ import java.util.Random;
 
 public class DanceVirus extends Virus {
 
-    public MyRandom random;
+    public Random random = new Random();
 
     public DanceVirus(){
         geneticCode = new DanceCode();
@@ -35,7 +35,7 @@ public class DanceVirus extends Virus {
 
     private Field pickRandom(ArrayList<Field> neighbours){
         int size = neighbours.size() - 1;
-        int idx = size != 1 ? new Random().nextInt(size) : 0;
+        int idx = size != 1 ? random.nextInt(size) : 0;
         return neighbours.get(idx);
     }
 }
