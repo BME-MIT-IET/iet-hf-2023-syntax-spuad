@@ -1,0 +1,23 @@
+
+
+java:S1319"dThe type of "nbrs" should be an interface such as "List" rather than the implementation "ArrayList".(¶½òúÿÿÿÿ
+‹
+java:S1319$"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(œ§‚¿ıÿÿÿÿ
+‹
+java:S1319'"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(½ëÒÿÿÿÿÿ
+‹
+java:S1319?"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(ÄÔˆÿÿÿÿÿ
+…
+java:S1319f"jThe type of "neighbours" should be an interface such as "List" rather than the implementation "ArrayList".(«Ïô²üÿÿÿÿ
+—
+java:S1186J"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¤Â³Â
+œ
+java:S1186Y"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(‹–°÷ÿÿÿÿÿ
+—
+java:S1186s"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ŠÏÜ†
+Q
+java:S1128"/Remove this unused import 'GUI.view.view.View'.(»î¨ıÿÿÿÿ8”©½ìƒ1
+S
+java:S1128"6Remove this unused import 'GUI.view.frames.GameFrame'.(ùÄ‚8”©½ìƒ1
+Y
+java:S1128"7Remove this unused import 'GUI.view.frames.Notifiable'.(±ì«ÿûÿÿÿÿ8”©½ìƒ1

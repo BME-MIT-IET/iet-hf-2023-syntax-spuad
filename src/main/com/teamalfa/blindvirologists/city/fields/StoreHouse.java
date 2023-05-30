@@ -31,6 +31,7 @@ public class StoreHouse extends Field {
     /**
      * Removes all elements from the safehouse.
      */
+    @Override
     public void destroy() {
        elements.removeAll();
     }

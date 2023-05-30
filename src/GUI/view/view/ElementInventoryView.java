@@ -40,10 +40,11 @@ public class ElementInventoryView extends ElementView {
         panel.getNucleoTextLabel().setText(": " + q);
     }
 
-    @Override
+
     /**
      * Updates the quantity textpanels.
      */
+    @Override
     public void update() {
         setAminoQuantity(eb.getAminoAcid());
         setNucleoQuantity(eb.getNucleotide());
