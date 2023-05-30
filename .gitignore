@@ -25,4 +25,8 @@ hs_err_pid*
 /final.txt
 /sorted.txt
 /stats.py
+
+# output
+/out
+/target
 /bin/
