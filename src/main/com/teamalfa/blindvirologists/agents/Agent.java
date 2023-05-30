@@ -51,7 +51,7 @@ abstract public class Agent implements Steppable {
      * Applies tha Agent and it's effect on the Virologist.
      * @param target The virologist the agent affects.
      */
-    abstract public void apply(Virologist target);
+    public abstract void apply(Virologist target);
 
     //getters
     public ElementBank getCost() {
@@ -63,14 +63,5 @@ abstract public class Agent implements Steppable {
     }
     public void setTarget(Virologist virologist) { target = virologist; }
 
-    /**
-     * Handles the duration and expiry of the agents.
-     */
-    public abstract void step();
-
-    /**
-     * getter
-     * @return
-     */
     public String getName() { return name; }
 }

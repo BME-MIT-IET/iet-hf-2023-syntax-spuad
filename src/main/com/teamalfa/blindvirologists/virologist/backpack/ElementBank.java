@@ -99,10 +99,10 @@ public class ElementBank {
         return  nucleotide;
     }
     public int getAminoAcidMaxSize() {
-        return nucleotideMaxSize;
+        return aminoAcidMaxSize;
     }
     public int getNucleotideMaxSize() {
-        return aminoAcidMaxSize;
+        return nucleotideMaxSize;
     }
 
     public void setAminoAcid(int num) {

@@ -8,7 +8,7 @@ import java.util.ArrayList;
 public class AgentPocket extends Pocket {
 
     private Backpack backpack;
-    private ArrayList<Agent> agentHolder = new ArrayList<Agent>();
+    private ArrayList<Agent> agentHolder = new ArrayList<>();
 
     public AgentPocket(Backpack b) {
         backpack = b;

@@ -1,0 +1,11 @@
+
+f
+java:S1206"PThis class overrides "equals()" and should therefore also override "hashCode()".(ÜÑã
+[
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(…ö²ÿ
+`
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(ÍÀÿşÿÿÿÿ
+`
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(©¾Âüÿÿÿÿ
+n
+java:S2975+"SRemove this "clone" implementation; use a copy constructor or copy factory instead.(²øÿÿÿÿ

@@ -4,7 +4,7 @@ import main.com.teamalfa.blindvirologists.equipments.Equipment;
 import main.com.teamalfa.blindvirologists.turn_handler.Steppable;
 import main.com.teamalfa.blindvirologists.virologist.Virologist;
 
-abstract public class ActiveEquipment extends Equipment implements Steppable {
+public abstract class ActiveEquipment extends Equipment implements Steppable {
     protected int cooldownDuration;
     protected int cooldown;
     protected int usetime;
@@ -21,6 +21,7 @@ abstract public class ActiveEquipment extends Equipment implements Steppable {
     /**
      * Adds the item to the virologist's worn items and also their active items.
      */
+    @Override
     public void equip(){
         virologist.addWorn(this);
         virologist.addActive(this);
@@ -29,6 +30,7 @@ abstract public class ActiveEquipment extends Equipment implements Steppable {
     /**
      * Removes the item from the virologist's worn items and also their active items.
      */
+    @Override
     public void unEquip(){
         virologist.removeWorn(this);
         virologist.removeActive(this);
@@ -46,10 +48,6 @@ abstract public class ActiveEquipment extends Equipment implements Steppable {
      */
     public abstract void wornOut();
 
-    /**
-     * Handles the cooldown of the equipment.
-     */
-    public abstract void step();
 
     /**
      * Returns the worn-out status of the equipment.

@@ -35,11 +35,12 @@ public class GlovesInventoryView extends GlovesView {
      */
     @Override
     public void actionPerformed(ActionEvent e) {
-        if(!isWorn)
-            if(TurnHandler.getActiveVirologist().getField().canChangeEquipment()) {
+        if(!isWorn) {
+            if (TurnHandler.getActiveVirologist().getField().canChangeEquipment()) {
                 popupMenu = new EquipmentPopupMenu(gloves);
                 popupMenu.show(this, 0, 0);
             }
+        }
         else {
             popupMenu = new WornGlovePopupMenu(gloves);
             popupMenu.show(this, 0, 0);
