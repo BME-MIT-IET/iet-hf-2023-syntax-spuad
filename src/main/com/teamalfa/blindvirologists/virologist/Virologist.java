@@ -8,6 +8,7 @@ import main.com.teamalfa.blindvirologists.agents.virus.Virus;
 import main.com.teamalfa.blindvirologists.agents.virus.VirusComparator;
 import main.com.teamalfa.blindvirologists.city.fields.Field;
 import main.com.teamalfa.blindvirologists.city.fields.SafeHouse;
+import main.com.teamalfa.blindvirologists.city.fields.StoreHouse;
 import main.com.teamalfa.blindvirologists.equipments.Equipment;
 import main.com.teamalfa.blindvirologists.equipments.active_equipments.ActiveEquipment;
 import main.com.teamalfa.blindvirologists.turn_handler.Game;
@@ -236,6 +237,8 @@ public class Virologist {
     public void pickUpMaterial(ElementBank elements) {
         if(!isParalyzed() && actions > 0 && !backpack.getElementBank().isFull()) {
             backpack.add(elements);
+            StoreHouse storeHouse = (StoreHouse) field;
+            storeHouse.setElements(new ElementBank(0,0));
             actions--;
             game.creativeNotify("Element added.");
         }
