@@ -30,3 +30,7 @@ hs_err_pid*
 /out
 /target
 /bin/
+
+# mac ds_store files
+*.DS_Store
+
