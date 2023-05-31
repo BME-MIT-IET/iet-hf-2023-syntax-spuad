@@ -1,7 +1,7 @@
-package main.java.com.teamalfa.GUI.view.view;
+package com.teamalfa.GUI.view.view;
 
-import main.java.com.teamalfa.GUI.view.panels.ElementPanel;
-import main.java.com.teamalfa.blindvirologists.virologist.backpack.ElementBank;
+import com.teamalfa.GUI.view.panels.ElementPanel;
+import com.teamalfa.blindvirologists.virologist.backpack.ElementBank;
 
 /**
  * Represents the view of the elements in the inventory.

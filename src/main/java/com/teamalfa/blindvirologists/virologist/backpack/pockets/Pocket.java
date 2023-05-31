@@ -1,4 +1,4 @@
-package main.java.com.teamalfa.blindvirologists.virologist.backpack.pockets;
+package com.teamalfa.blindvirologists.virologist.backpack.pockets;
 
 abstract public class Pocket {
 

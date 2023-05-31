@@ -1,16 +1,16 @@
-package main.java.com.teamalfa.GUI.view.panels;
+package com.teamalfa.GUI.view.panels;
 
-import main.java.com.teamalfa.GUI.view.view.View;
-import main.java.com.teamalfa.GUI.view.view.fieldView.FieldView;
-import main.java.com.teamalfa.GUI.view.view.fieldView.LaboratoryView;
-import main.java.com.teamalfa.GUI.view.view.fieldView.SafeHouseView;
-import main.java.com.teamalfa.GUI.view.view.fieldView.StoreHouseView;
-import main.java.com.teamalfa.blindvirologists.city.City;
-import main.java.com.teamalfa.blindvirologists.city.fields.Field;
-import main.java.com.teamalfa.blindvirologists.city.fields.Laboratory;
-import main.java.com.teamalfa.blindvirologists.city.fields.SafeHouse;
-import main.java.com.teamalfa.blindvirologists.city.fields.StoreHouse;
-import main.java.com.teamalfa.blindvirologists.turn_handler.TurnHandler;
+import com.teamalfa.GUI.view.view.View;
+import com.teamalfa.GUI.view.view.fieldView.FieldView;
+import com.teamalfa.GUI.view.view.fieldView.LaboratoryView;
+import com.teamalfa.GUI.view.view.fieldView.SafeHouseView;
+import com.teamalfa.GUI.view.view.fieldView.StoreHouseView;
+import com.teamalfa.blindvirologists.city.City;
+import com.teamalfa.blindvirologists.city.fields.Field;
+import com.teamalfa.blindvirologists.city.fields.Laboratory;
+import com.teamalfa.blindvirologists.city.fields.SafeHouse;
+import com.teamalfa.blindvirologists.city.fields.StoreHouse;
+import com.teamalfa.blindvirologists.turn_handler.TurnHandler;
 
 import javax.swing.*;
 import java.awt.*;

@@ -1,9 +1,9 @@
-package main.java.com.teamalfa.blindvirologists.agents;
+package com.teamalfa.blindvirologists.agents;
 
-import main.java.com.teamalfa.blindvirologists.agents.genetic_code.GeneticCode;
-import main.java.com.teamalfa.blindvirologists.turn_handler.Game;
-import main.java.com.teamalfa.blindvirologists.turn_handler.TurnHandler;
-import main.java.com.teamalfa.blindvirologists.virologist.Virologist;
+import com.teamalfa.blindvirologists.agents.genetic_code.GeneticCode;
+import com.teamalfa.blindvirologists.turn_handler.Game;
+import com.teamalfa.blindvirologists.turn_handler.TurnHandler;
+import com.teamalfa.blindvirologists.virologist.Virologist;
 
 public class Vaccine extends Agent {
 

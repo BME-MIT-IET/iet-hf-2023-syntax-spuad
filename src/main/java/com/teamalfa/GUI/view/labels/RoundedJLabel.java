@@ -1,4 +1,4 @@
-package main.java.com.teamalfa.GUI.view.labels;
+package com.teamalfa.GUI.view.labels;
 
 import javax.swing.*;
 import javax.swing.border.EmptyBorder;

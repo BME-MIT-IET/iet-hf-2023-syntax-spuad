@@ -1,7 +1,7 @@
-package main.java.com.teamalfa.blindvirologists;
+package com.teamalfa.blindvirologists;
 
-import main.java.com.teamalfa.GUI.view.frames.menuFrames.MenuFrame;
-import main.java.com.teamalfa.blindvirologists.consoleController.ConsoleController;
+import com.teamalfa.GUI.view.frames.menuFrames.MenuFrame;
+import com.teamalfa.blindvirologists.consoleController.ConsoleController;
 
 import java.util.Scanner;
 

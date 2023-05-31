@@ -1,9 +1,9 @@
-package main.java.com.teamalfa.GUI.view.panels;
+package com.teamalfa.GUI.view.panels;
 
-import main.java.com.teamalfa.GUI.view.buttons.RoundedOutlinedButton;
-import main.java.com.teamalfa.GUI.view.frames.Notifiable;
-import main.java.com.teamalfa.GUI.view.labels.RoundedJLabel;
-import main.java.com.teamalfa.blindvirologists.turn_handler.TurnHandler;
+import com.teamalfa.GUI.view.buttons.RoundedOutlinedButton;
+import com.teamalfa.GUI.view.frames.Notifiable;
+import com.teamalfa.GUI.view.labels.RoundedJLabel;
+import com.teamalfa.blindvirologists.turn_handler.TurnHandler;
 
 import javax.swing.*;
 import java.awt.event.ActionEvent;

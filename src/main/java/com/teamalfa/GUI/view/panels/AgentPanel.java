@@ -1,13 +1,13 @@
-package main.java.com.teamalfa.GUI.view.panels;
+package com.teamalfa.GUI.view.panels;
 
-import main.java.com.teamalfa.GUI.view.view.agentView.*;
-import main.java.com.teamalfa.blindvirologists.agents.Agent;
-import main.java.com.teamalfa.blindvirologists.agents.Vaccine;
-import main.java.com.teamalfa.blindvirologists.agents.virus.AmnesiaVirus;
-import main.java.com.teamalfa.blindvirologists.agents.virus.BearVirus;
-import main.java.com.teamalfa.blindvirologists.agents.virus.DanceVirus;
-import main.java.com.teamalfa.blindvirologists.agents.virus.ParalyzeVirus;
-import main.java.com.teamalfa.blindvirologists.virologist.backpack.pockets.AgentPocket;
+import com.teamalfa.GUI.view.view.agentView.*;
+import com.teamalfa.blindvirologists.agents.Agent;
+import com.teamalfa.blindvirologists.agents.Vaccine;
+import com.teamalfa.blindvirologists.agents.virus.AmnesiaVirus;
+import com.teamalfa.blindvirologists.agents.virus.BearVirus;
+import com.teamalfa.blindvirologists.agents.virus.DanceVirus;
+import com.teamalfa.blindvirologists.agents.virus.ParalyzeVirus;
+import com.teamalfa.blindvirologists.virologist.backpack.pockets.AgentPocket;
 
 import javax.swing.*;
 import java.awt.*;

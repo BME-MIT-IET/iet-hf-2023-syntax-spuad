@@ -1,7 +1,7 @@
-package main.java.com.teamalfa.GUI.view.view.geneticCodeView;
+package com.teamalfa.GUI.view.view.geneticCodeView;
 
-import main.java.com.teamalfa.GUI.view.menus.GeneticCodePopupMenu;
-import main.java.com.teamalfa.blindvirologists.agents.genetic_code.DanceCode;
+import com.teamalfa.GUI.view.menus.GeneticCodePopupMenu;
+import com.teamalfa.blindvirologists.agents.genetic_code.DanceCode;
 
 import javax.swing.*;
 import java.awt.event.ActionEvent;

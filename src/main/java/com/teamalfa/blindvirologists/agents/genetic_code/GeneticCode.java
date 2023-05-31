@@ -1,8 +1,8 @@
-package main.java.com.teamalfa.blindvirologists.agents.genetic_code;
-import main.java.com.teamalfa.blindvirologists.agents.Vaccine;
-import main.java.com.teamalfa.blindvirologists.agents.virus.Virus;
-import main.java.com.teamalfa.blindvirologists.virologist.Virologist;
-import main.java.com.teamalfa.blindvirologists.virologist.backpack.ElementBank;
+package com.teamalfa.blindvirologists.agents.genetic_code;
+import com.teamalfa.blindvirologists.agents.Vaccine;
+import com.teamalfa.blindvirologists.agents.virus.Virus;
+import com.teamalfa.blindvirologists.virologist.Virologist;
+import com.teamalfa.blindvirologists.virologist.backpack.ElementBank;
 
 /**
  *  abstract class for all the genetic codes

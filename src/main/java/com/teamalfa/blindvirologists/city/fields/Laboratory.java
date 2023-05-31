@@ -1,7 +1,7 @@
-package main.java.com.teamalfa.blindvirologists.city.fields;
+package com.teamalfa.blindvirologists.city.fields;
 
-import main.java.com.teamalfa.blindvirologists.agents.genetic_code.GeneticCode;
-import main.java.com.teamalfa.blindvirologists.virologist.Virologist;
+import com.teamalfa.blindvirologists.agents.genetic_code.GeneticCode;
+import com.teamalfa.blindvirologists.virologist.Virologist;
 
 public class Laboratory extends Field{
     private GeneticCode geneticCode;

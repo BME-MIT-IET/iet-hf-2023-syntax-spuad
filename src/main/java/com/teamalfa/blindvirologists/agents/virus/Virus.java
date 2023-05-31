@@ -1,9 +1,9 @@
-package main.java.com.teamalfa.blindvirologists.agents.virus;
+package com.teamalfa.blindvirologists.agents.virus;
 
-import main.java.com.teamalfa.blindvirologists.agents.Agent;
-import main.java.com.teamalfa.blindvirologists.city.fields.Field;
-import main.java.com.teamalfa.blindvirologists.turn_handler.TurnHandler;
-import main.java.com.teamalfa.blindvirologists.virologist.Virologist;
+import com.teamalfa.blindvirologists.agents.Agent;
+import com.teamalfa.blindvirologists.city.fields.Field;
+import com.teamalfa.blindvirologists.turn_handler.TurnHandler;
+import com.teamalfa.blindvirologists.virologist.Virologist;
 
 abstract public class Virus extends Agent {
 

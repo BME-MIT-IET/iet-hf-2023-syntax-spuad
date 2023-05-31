@@ -1,4 +1,4 @@
-package main.java.com.teamalfa.GUI.view.frames;
+package com.teamalfa.GUI.view.frames;
 
 public interface Notifiable {
     /**

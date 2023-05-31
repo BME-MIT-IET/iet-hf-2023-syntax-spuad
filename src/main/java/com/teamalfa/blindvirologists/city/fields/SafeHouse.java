@@ -1,7 +1,7 @@
-package main.java.com.teamalfa.blindvirologists.city.fields;
+package com.teamalfa.blindvirologists.city.fields;
 
-import main.java.com.teamalfa.blindvirologists.equipments.Equipment;
-import main.java.com.teamalfa.blindvirologists.virologist.Virologist;
+import com.teamalfa.blindvirologists.equipments.Equipment;
+import com.teamalfa.blindvirologists.virologist.Virologist;
 
 import java.util.ArrayList;
 

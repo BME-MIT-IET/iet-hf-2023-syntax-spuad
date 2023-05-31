@@ -1,4 +1,4 @@
-package main.java.com.teamalfa.GUI.view.panels;
+package com.teamalfa.GUI.view.panels;
 
 import javax.swing.*;
 import java.awt.*;

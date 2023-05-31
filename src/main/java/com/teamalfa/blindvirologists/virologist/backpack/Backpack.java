@@ -1,14 +1,14 @@
-package main.java.com.teamalfa.blindvirologists.virologist.backpack;
+package com.teamalfa.blindvirologists.virologist.backpack;
 
-import main.java.com.teamalfa.blindvirologists.agents.Agent;
-import main.java.com.teamalfa.blindvirologists.agents.Vaccine;
-import main.java.com.teamalfa.blindvirologists.agents.genetic_code.GeneticCode;
-import main.java.com.teamalfa.blindvirologists.agents.virus.Virus;
-import main.java.com.teamalfa.blindvirologists.equipments.Equipment;
-import main.java.com.teamalfa.blindvirologists.virologist.Virologist;
-import main.java.com.teamalfa.blindvirologists.virologist.backpack.pockets.AgentPocket;
-import main.java.com.teamalfa.blindvirologists.virologist.backpack.pockets.EquipmentPocket;
-import main.java.com.teamalfa.blindvirologists.virologist.backpack.pockets.GeneticCodePocket;
+import com.teamalfa.blindvirologists.agents.Agent;
+import com.teamalfa.blindvirologists.agents.Vaccine;
+import com.teamalfa.blindvirologists.agents.genetic_code.GeneticCode;
+import com.teamalfa.blindvirologists.agents.virus.Virus;
+import com.teamalfa.blindvirologists.equipments.Equipment;
+import com.teamalfa.blindvirologists.virologist.Virologist;
+import com.teamalfa.blindvirologists.virologist.backpack.pockets.AgentPocket;
+import com.teamalfa.blindvirologists.virologist.backpack.pockets.EquipmentPocket;
+import com.teamalfa.blindvirologists.virologist.backpack.pockets.GeneticCodePocket;
 
 import java.util.ArrayList;
 

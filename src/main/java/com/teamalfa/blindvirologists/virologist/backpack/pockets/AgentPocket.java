@@ -1,7 +1,7 @@
-package main.java.com.teamalfa.blindvirologists.virologist.backpack.pockets;
+package com.teamalfa.blindvirologists.virologist.backpack.pockets;
 
-import main.java.com.teamalfa.blindvirologists.agents.Agent;
-import main.java.com.teamalfa.blindvirologists.virologist.backpack.Backpack;
+import com.teamalfa.blindvirologists.agents.Agent;
+import com.teamalfa.blindvirologists.virologist.backpack.Backpack;
 
 import java.util.ArrayList;
 

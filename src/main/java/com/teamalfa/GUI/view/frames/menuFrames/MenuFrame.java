@@ -1,6 +1,6 @@
-package main.java.com.teamalfa.GUI.view.frames.menuFrames;
+package com.teamalfa.GUI.view.frames.menuFrames;
 
-import main.java.com.teamalfa.GUI.view.frames.GameFrame;
+import com.teamalfa.GUI.view.frames.GameFrame;
 
 import javax.swing.*;
 import java.awt.*;

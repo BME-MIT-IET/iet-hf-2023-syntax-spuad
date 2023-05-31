@@ -1,4 +1,4 @@
-package main.java.com.teamalfa.GUI.view.buttons;
+package com.teamalfa.GUI.view.buttons;
 
 import javax.swing.*;
 import java.awt.*;

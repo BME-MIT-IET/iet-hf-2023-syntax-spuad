@@ -1,6 +1,6 @@
-package main.java.com.teamalfa.GUI.view.view.equipmentView;
+package com.teamalfa.GUI.view.view.equipmentView;
 
-import main.java.com.teamalfa.GUI.view.view.View;
+import com.teamalfa.GUI.view.view.View;
 import javax.swing.*;
 import java.awt.event.ActionListener;
 

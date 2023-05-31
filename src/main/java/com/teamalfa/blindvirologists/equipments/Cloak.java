@@ -1,4 +1,4 @@
-package main.java.com.teamalfa.blindvirologists.equipments;
+package com.teamalfa.blindvirologists.equipments;
 
 import java.util.Random;
 

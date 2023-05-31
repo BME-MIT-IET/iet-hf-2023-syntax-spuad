@@ -1,8 +1,8 @@
-package main.java.com.teamalfa.GUI.view.menus;
+package com.teamalfa.GUI.view.menus;
 
-import main.java.com.teamalfa.GUI.view.view.geneticCodeView.GeneticCodeView;
-import main.java.com.teamalfa.blindvirologists.agents.genetic_code.GeneticCode;
-import main.java.com.teamalfa.blindvirologists.turn_handler.TurnHandler;
+import com.teamalfa.GUI.view.view.geneticCodeView.GeneticCodeView;
+import com.teamalfa.blindvirologists.agents.genetic_code.GeneticCode;
+import com.teamalfa.blindvirologists.turn_handler.TurnHandler;
 
 import javax.swing.*;
 import java.awt.event.ActionEvent;

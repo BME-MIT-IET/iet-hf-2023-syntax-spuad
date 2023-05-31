@@ -1,9 +1,9 @@
-package main.java.com.teamalfa.blindvirologists.agents.genetic_code;
+package com.teamalfa.blindvirologists.agents.genetic_code;
 
-import main.java.com.teamalfa.blindvirologists.agents.Vaccine;
-import main.java.com.teamalfa.blindvirologists.agents.virus.AmnesiaVirus;
-import main.java.com.teamalfa.blindvirologists.turn_handler.TurnHandler;
-import main.java.com.teamalfa.blindvirologists.virologist.backpack.ElementBank;
+import com.teamalfa.blindvirologists.agents.Vaccine;
+import com.teamalfa.blindvirologists.agents.virus.AmnesiaVirus;
+import com.teamalfa.blindvirologists.turn_handler.TurnHandler;
+import com.teamalfa.blindvirologists.virologist.backpack.ElementBank;
 
 public class AmnesiaCode extends GeneticCode {
 

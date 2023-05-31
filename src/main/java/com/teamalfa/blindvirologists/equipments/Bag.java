@@ -1,7 +1,7 @@
-package main.java.com.teamalfa.blindvirologists.equipments;
+package com.teamalfa.blindvirologists.equipments;
 
-import main.java.com.teamalfa.blindvirologists.virologist.backpack.Backpack;
-import main.java.com.teamalfa.blindvirologists.virologist.backpack.ElementBank;
+import com.teamalfa.blindvirologists.virologist.backpack.Backpack;
+import com.teamalfa.blindvirologists.virologist.backpack.ElementBank;
 
 public class Bag extends Equipment{
     private final int extraSize;

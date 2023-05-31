@@ -1,28 +1,28 @@
-package main.java.com.teamalfa.blindvirologists.consoleController;
+package com.teamalfa.blindvirologists.consoleController;
 
-import main.java.com.teamalfa.blindvirologists.agents.Agent;
-import main.java.com.teamalfa.blindvirologists.agents.Vaccine;
-import main.java.com.teamalfa.blindvirologists.agents.genetic_code.*;
-import main.java.com.teamalfa.blindvirologists.agents.virus.*;
-import main.java.com.teamalfa.blindvirologists.city.fields.Field;
-import main.java.com.teamalfa.blindvirologists.city.fields.Laboratory;
-import main.java.com.teamalfa.blindvirologists.city.fields.SafeHouse;
-import main.java.com.teamalfa.blindvirologists.city.fields.StoreHouse;
-import main.java.com.teamalfa.blindvirologists.equipments.Bag;
-import main.java.com.teamalfa.blindvirologists.equipments.Cloak;
-import main.java.com.teamalfa.blindvirologists.equipments.Equipment;
-import main.java.com.teamalfa.blindvirologists.equipments.active_equipments.ActiveEquipment;
-import main.java.com.teamalfa.blindvirologists.equipments.active_equipments.Axe;
-import main.java.com.teamalfa.blindvirologists.equipments.active_equipments.Gloves;
-import main.java.com.teamalfa.blindvirologists.consoleController.random.MyRandom;
-import main.java.com.teamalfa.blindvirologists.turn_handler.Game;
-import main.java.com.teamalfa.blindvirologists.turn_handler.TurnHandler;
-import main.java.com.teamalfa.blindvirologists.virologist.Virologist;
-import main.java.com.teamalfa.blindvirologists.virologist.backpack.Backpack;
-import main.java.com.teamalfa.blindvirologists.virologist.backpack.ElementBank;
+import com.teamalfa.blindvirologists.agents.Agent;
+import com.teamalfa.blindvirologists.agents.Vaccine;
+import com.teamalfa.blindvirologists.agents.genetic_code.*;
+import com.teamalfa.blindvirologists.agents.virus.*;
+import com.teamalfa.blindvirologists.city.fields.Field;
+import com.teamalfa.blindvirologists.city.fields.Laboratory;
+import com.teamalfa.blindvirologists.city.fields.SafeHouse;
+import com.teamalfa.blindvirologists.city.fields.StoreHouse;
+import com.teamalfa.blindvirologists.equipments.Bag;
+import com.teamalfa.blindvirologists.equipments.Cloak;
+import com.teamalfa.blindvirologists.equipments.Equipment;
+import com.teamalfa.blindvirologists.equipments.active_equipments.ActiveEquipment;
+import com.teamalfa.blindvirologists.equipments.active_equipments.Axe;
+import com.teamalfa.blindvirologists.equipments.active_equipments.Gloves;
+import com.teamalfa.blindvirologists.consoleController.random.MyRandom;
+import com.teamalfa.blindvirologists.turn_handler.Game;
+import com.teamalfa.blindvirologists.turn_handler.TurnHandler;
+import com.teamalfa.blindvirologists.virologist.Virologist;
+import com.teamalfa.blindvirologists.virologist.backpack.Backpack;
+import com.teamalfa.blindvirologists.virologist.backpack.ElementBank;
 
-import static main.java.com.teamalfa.blindvirologists.consoleController.ConsoleControllerHelper.*;
-import static main.java.com.teamalfa.blindvirologists.consoleController.ErrorPrinter.*;
+import static com.teamalfa.blindvirologists.consoleController.ConsoleControllerHelper.*;
+import static com.teamalfa.blindvirologists.consoleController.ErrorPrinter.*;
 
 
 import java.io.*;

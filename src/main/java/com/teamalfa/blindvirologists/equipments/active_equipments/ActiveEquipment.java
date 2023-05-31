@@ -1,8 +1,8 @@
-package main.java.com.teamalfa.blindvirologists.equipments.active_equipments;
+package com.teamalfa.blindvirologists.equipments.active_equipments;
 
-import main.java.com.teamalfa.blindvirologists.equipments.Equipment;
-import main.java.com.teamalfa.blindvirologists.turn_handler.Steppable;
-import main.java.com.teamalfa.blindvirologists.virologist.Virologist;
+import com.teamalfa.blindvirologists.equipments.Equipment;
+import com.teamalfa.blindvirologists.turn_handler.Steppable;
+import com.teamalfa.blindvirologists.virologist.Virologist;
 
 public abstract class ActiveEquipment extends Equipment implements Steppable {
     protected int cooldownDuration;

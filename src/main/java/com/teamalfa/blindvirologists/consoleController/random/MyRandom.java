@@ -1,4 +1,4 @@
-package main.java.com.teamalfa.blindvirologists.consoleController.random;
+package com.teamalfa.blindvirologists.consoleController.random;
 
 public class MyRandom{
     private static MyRandom instance = null;

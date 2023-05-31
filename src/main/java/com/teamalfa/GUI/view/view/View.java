@@ -1,4 +1,4 @@
-package main.java.com.teamalfa.GUI.view.view;
+package com.teamalfa.GUI.view.view;
 /**
  * Interface that every viewable object implements.
  */

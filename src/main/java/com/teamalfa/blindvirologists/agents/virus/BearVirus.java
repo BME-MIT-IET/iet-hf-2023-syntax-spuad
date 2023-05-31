@@ -1,7 +1,7 @@
-package main.java.com.teamalfa.blindvirologists.agents.virus;
+package com.teamalfa.blindvirologists.agents.virus;
 
-import main.java.com.teamalfa.blindvirologists.agents.genetic_code.BearCode;
-import main.java.com.teamalfa.blindvirologists.virologist.Virologist;
+import com.teamalfa.blindvirologists.agents.genetic_code.BearCode;
+import com.teamalfa.blindvirologists.virologist.Virologist;
 
 public class BearVirus extends DanceVirus{
 

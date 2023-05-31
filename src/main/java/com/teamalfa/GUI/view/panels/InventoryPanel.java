@@ -1,13 +1,13 @@
-package main.java.com.teamalfa.GUI.view.panels;
+package com.teamalfa.GUI.view.panels;
 
-import main.java.com.teamalfa.GUI.view.buttons.RoundedOutlinedButton;
-import main.java.com.teamalfa.GUI.view.frames.GameFrame;
-import main.java.com.teamalfa.GUI.view.menus.RobPopupMenu;
-import main.java.com.teamalfa.GUI.view.view.View;
-import main.java.com.teamalfa.GUI.view.view.VirologistView;
-import main.java.com.teamalfa.blindvirologists.turn_handler.TurnHandler;
-import main.java.com.teamalfa.blindvirologists.virologist.Virologist;
-import main.java.com.teamalfa.blindvirologists.virologist.backpack.Backpack;
+import com.teamalfa.GUI.view.buttons.RoundedOutlinedButton;
+import com.teamalfa.GUI.view.frames.GameFrame;
+import com.teamalfa.GUI.view.menus.RobPopupMenu;
+import com.teamalfa.GUI.view.view.View;
+import com.teamalfa.GUI.view.view.VirologistView;
+import com.teamalfa.blindvirologists.turn_handler.TurnHandler;
+import com.teamalfa.blindvirologists.virologist.Virologist;
+import com.teamalfa.blindvirologists.virologist.backpack.Backpack;
 
 import javax.swing.*;
 import java.awt.*;

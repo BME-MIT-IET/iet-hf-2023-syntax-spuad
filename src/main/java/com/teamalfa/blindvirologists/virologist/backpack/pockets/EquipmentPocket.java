@@ -1,6 +1,6 @@
-package main.java.com.teamalfa.blindvirologists.virologist.backpack.pockets;
-import main.java.com.teamalfa.blindvirologists.equipments.Equipment;
-import main.java.com.teamalfa.blindvirologists.virologist.backpack.Backpack;
+package com.teamalfa.blindvirologists.virologist.backpack.pockets;
+import com.teamalfa.blindvirologists.equipments.Equipment;
+import com.teamalfa.blindvirologists.virologist.backpack.Backpack;
 
 import java.util.ArrayList;
 

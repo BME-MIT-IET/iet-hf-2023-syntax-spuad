@@ -1,8 +1,8 @@
-package main.java.com.teamalfa.GUI.view.panels;
+package com.teamalfa.GUI.view.panels;
 
-import main.java.com.teamalfa.GUI.view.view.ElementInventoryView;
-import main.java.com.teamalfa.GUI.view.view.View;
-import main.java.com.teamalfa.blindvirologists.virologist.backpack.ElementBank;
+import com.teamalfa.GUI.view.view.ElementInventoryView;
+import com.teamalfa.GUI.view.view.View;
+import com.teamalfa.blindvirologists.virologist.backpack.ElementBank;
 
 import javax.swing.*;
 import java.awt.*;

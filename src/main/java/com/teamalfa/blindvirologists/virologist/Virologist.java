@@ -1,20 +1,20 @@
-package main.java.com.teamalfa.blindvirologists.virologist;
+package com.teamalfa.blindvirologists.virologist;
 
-import main.java.com.teamalfa.GUI.view.frames.Notifiable;
-import main.java.com.teamalfa.blindvirologists.agents.Agent;
-import main.java.com.teamalfa.blindvirologists.agents.Vaccine;
-import main.java.com.teamalfa.blindvirologists.agents.genetic_code.GeneticCode;
-import main.java.com.teamalfa.blindvirologists.agents.virus.Virus;
-import main.java.com.teamalfa.blindvirologists.agents.virus.VirusComparator;
-import main.java.com.teamalfa.blindvirologists.city.fields.Field;
-import main.java.com.teamalfa.blindvirologists.city.fields.SafeHouse;
-import main.java.com.teamalfa.blindvirologists.city.fields.StoreHouse;
-import main.java.com.teamalfa.blindvirologists.equipments.Equipment;
-import main.java.com.teamalfa.blindvirologists.equipments.active_equipments.ActiveEquipment;
-import main.java.com.teamalfa.blindvirologists.turn_handler.Game;
-import main.java.com.teamalfa.blindvirologists.turn_handler.TurnHandler;
-import main.java.com.teamalfa.blindvirologists.virologist.backpack.Backpack;
-import main.java.com.teamalfa.blindvirologists.virologist.backpack.ElementBank;
+import com.teamalfa.GUI.view.frames.Notifiable;
+import com.teamalfa.blindvirologists.agents.Agent;
+import com.teamalfa.blindvirologists.agents.Vaccine;
+import com.teamalfa.blindvirologists.agents.genetic_code.GeneticCode;
+import com.teamalfa.blindvirologists.agents.virus.Virus;
+import com.teamalfa.blindvirologists.agents.virus.VirusComparator;
+import com.teamalfa.blindvirologists.city.fields.Field;
+import com.teamalfa.blindvirologists.city.fields.SafeHouse;
+import com.teamalfa.blindvirologists.city.fields.StoreHouse;
+import com.teamalfa.blindvirologists.equipments.Equipment;
+import com.teamalfa.blindvirologists.equipments.active_equipments.ActiveEquipment;
+import com.teamalfa.blindvirologists.turn_handler.Game;
+import com.teamalfa.blindvirologists.turn_handler.TurnHandler;
+import com.teamalfa.blindvirologists.virologist.backpack.Backpack;
+import com.teamalfa.blindvirologists.virologist.backpack.ElementBank;
 
 import java.util.ArrayList;
 import java.util.Collections;

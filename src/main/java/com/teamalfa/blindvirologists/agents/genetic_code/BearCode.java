@@ -1,10 +1,10 @@
-package main.java.com.teamalfa.blindvirologists.agents.genetic_code;
+package com.teamalfa.blindvirologists.agents.genetic_code;
 
-import main.java.com.teamalfa.blindvirologists.agents.Vaccine;
-import main.java.com.teamalfa.blindvirologists.agents.virus.BearVirus;
-import main.java.com.teamalfa.blindvirologists.turn_handler.TurnHandler;
-import main.java.com.teamalfa.blindvirologists.virologist.Virologist;
-import main.java.com.teamalfa.blindvirologists.virologist.backpack.ElementBank;
+import com.teamalfa.blindvirologists.agents.Vaccine;
+import com.teamalfa.blindvirologists.agents.virus.BearVirus;
+import com.teamalfa.blindvirologists.turn_handler.TurnHandler;
+import com.teamalfa.blindvirologists.virologist.Virologist;
+import com.teamalfa.blindvirologists.virologist.backpack.ElementBank;
 
 public class BearCode extends GeneticCode {
 

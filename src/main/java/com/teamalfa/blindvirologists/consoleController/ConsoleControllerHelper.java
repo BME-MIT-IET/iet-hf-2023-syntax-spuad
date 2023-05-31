@@ -1,7 +1,7 @@
-package main.java.com.teamalfa.blindvirologists.consoleController;
+package com.teamalfa.blindvirologists.consoleController;
 
-import main.java.com.teamalfa.blindvirologists.turn_handler.TurnHandler;
-import main.java.com.teamalfa.blindvirologists.virologist.Virologist;
+import com.teamalfa.blindvirologists.turn_handler.TurnHandler;
+import com.teamalfa.blindvirologists.virologist.Virologist;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashMap;

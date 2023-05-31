@@ -1,4 +1,4 @@
-package main.java.com.teamalfa.blindvirologists.turn_handler;
+package com.teamalfa.blindvirologists.turn_handler;
 
 /**
  * Interface that every steppable implements.

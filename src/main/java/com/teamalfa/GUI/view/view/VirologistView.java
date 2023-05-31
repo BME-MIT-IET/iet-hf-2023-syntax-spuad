@@ -1,8 +1,8 @@
-package main.java.com.teamalfa.GUI.view.view;
+package com.teamalfa.GUI.view.view;
 
-import main.java.com.teamalfa.GUI.view.frames.GameFrame;
-import main.java.com.teamalfa.blindvirologists.turn_handler.TurnHandler;
-import main.java.com.teamalfa.blindvirologists.virologist.Virologist;
+import com.teamalfa.GUI.view.frames.GameFrame;
+import com.teamalfa.blindvirologists.turn_handler.TurnHandler;
+import com.teamalfa.blindvirologists.virologist.Virologist;
 
 import javax.swing.*;
 import java.awt.*;

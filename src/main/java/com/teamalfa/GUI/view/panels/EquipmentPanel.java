@@ -1,12 +1,12 @@
-package main.java.com.teamalfa.GUI.view.panels;
+package com.teamalfa.GUI.view.panels;
 
-import main.java.com.teamalfa.GUI.view.view.equipmentView.*;
-import main.java.com.teamalfa.blindvirologists.equipments.Bag;
-import main.java.com.teamalfa.blindvirologists.equipments.Cloak;
-import main.java.com.teamalfa.blindvirologists.equipments.Equipment;
-import main.java.com.teamalfa.blindvirologists.equipments.active_equipments.Axe;
-import main.java.com.teamalfa.blindvirologists.equipments.active_equipments.Gloves;
-import main.java.com.teamalfa.blindvirologists.virologist.backpack.pockets.EquipmentPocket;
+import com.teamalfa.GUI.view.view.equipmentView.*;
+import com.teamalfa.blindvirologists.equipments.Bag;
+import com.teamalfa.blindvirologists.equipments.Cloak;
+import com.teamalfa.blindvirologists.equipments.Equipment;
+import com.teamalfa.blindvirologists.equipments.active_equipments.Axe;
+import com.teamalfa.blindvirologists.equipments.active_equipments.Gloves;
+import com.teamalfa.blindvirologists.virologist.backpack.pockets.EquipmentPocket;
 
 import javax.swing.*;
 import java.awt.*;

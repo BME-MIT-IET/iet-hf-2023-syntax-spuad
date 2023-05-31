@@ -1,17 +1,17 @@
-package main.java.com.teamalfa.blindvirologists.city;
+package com.teamalfa.blindvirologists.city;
 
-import main.java.com.teamalfa.blindvirologists.agents.GeneticCodeBank;
-import main.java.com.teamalfa.blindvirologists.agents.genetic_code.*;
-import main.java.com.teamalfa.blindvirologists.city.fields.Field;
-import main.java.com.teamalfa.blindvirologists.city.fields.Laboratory;
-import main.java.com.teamalfa.blindvirologists.city.fields.SafeHouse;
-import main.java.com.teamalfa.blindvirologists.city.fields.StoreHouse;
-import main.java.com.teamalfa.blindvirologists.equipments.Bag;
-import main.java.com.teamalfa.blindvirologists.equipments.Cloak;
-import main.java.com.teamalfa.blindvirologists.equipments.Equipment;
-import main.java.com.teamalfa.blindvirologists.equipments.active_equipments.Axe;
-import main.java.com.teamalfa.blindvirologists.equipments.active_equipments.Gloves;
-import main.java.com.teamalfa.blindvirologists.virologist.backpack.ElementBank;
+import com.teamalfa.blindvirologists.agents.GeneticCodeBank;
+import com.teamalfa.blindvirologists.agents.genetic_code.*;
+import com.teamalfa.blindvirologists.city.fields.Field;
+import com.teamalfa.blindvirologists.city.fields.Laboratory;
+import com.teamalfa.blindvirologists.city.fields.SafeHouse;
+import com.teamalfa.blindvirologists.city.fields.StoreHouse;
+import com.teamalfa.blindvirologists.equipments.Bag;
+import com.teamalfa.blindvirologists.equipments.Cloak;
+import com.teamalfa.blindvirologists.equipments.Equipment;
+import com.teamalfa.blindvirologists.equipments.active_equipments.Axe;
+import com.teamalfa.blindvirologists.equipments.active_equipments.Gloves;
+import com.teamalfa.blindvirologists.virologist.backpack.ElementBank;
 
 import java.util.ArrayList;
 import java.util.Random;

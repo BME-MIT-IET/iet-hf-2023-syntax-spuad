@@ -1,6 +1,6 @@
-package main.java.com.teamalfa.blindvirologists.turn_handler;
+package com.teamalfa.blindvirologists.turn_handler;
 
-import main.java.com.teamalfa.blindvirologists.virologist.Virologist;
+import com.teamalfa.blindvirologists.virologist.Virologist;
 
 import java.util.ArrayList;
 import java.util.Collections;

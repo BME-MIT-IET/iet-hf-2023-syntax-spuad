@@ -1,6 +1,6 @@
-package main.java.com.teamalfa.blindvirologists.equipments;
+package com.teamalfa.blindvirologists.equipments;
 
-import main.java.com.teamalfa.blindvirologists.virologist.Virologist;
+import com.teamalfa.blindvirologists.virologist.Virologist;
 
 abstract public class Equipment {
     protected Virologist virologist;

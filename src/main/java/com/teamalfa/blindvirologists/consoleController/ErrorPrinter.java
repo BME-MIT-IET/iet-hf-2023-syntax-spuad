@@ -1,4 +1,4 @@
-package main.java.com.teamalfa.blindvirologists.consoleController;
+package com.teamalfa.blindvirologists.consoleController;
 
 import java.util.ArrayList;
 

@@ -1,9 +1,9 @@
-package main.java.com.teamalfa.blindvirologists.equipments.active_equipments;
+package com.teamalfa.blindvirologists.equipments.active_equipments;
 
-import main.java.com.teamalfa.blindvirologists.agents.virus.Virus;
-import main.java.com.teamalfa.blindvirologists.turn_handler.Game;
-import main.java.com.teamalfa.blindvirologists.turn_handler.TurnHandler;
-import main.java.com.teamalfa.blindvirologists.virologist.Virologist;
+import com.teamalfa.blindvirologists.agents.virus.Virus;
+import com.teamalfa.blindvirologists.turn_handler.Game;
+import com.teamalfa.blindvirologists.turn_handler.TurnHandler;
+import com.teamalfa.blindvirologists.virologist.Virologist;
 
 public class Gloves extends ActiveEquipment {
 

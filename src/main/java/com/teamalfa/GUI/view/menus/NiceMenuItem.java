@@ -1,4 +1,4 @@
-package main.java.com.teamalfa.GUI.view.menus;
+package com.teamalfa.GUI.view.menus;
 
 import javax.swing.*;
 import java.awt.*;

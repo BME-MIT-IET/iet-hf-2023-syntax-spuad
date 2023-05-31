@@ -1,6 +1,6 @@
-package main.java.com.teamalfa.blindvirologists.city.fields;
-import main.java.com.teamalfa.blindvirologists.virologist.Virologist;
-import main.java.com.teamalfa.blindvirologists.virologist.backpack.ElementBank;
+package com.teamalfa.blindvirologists.city.fields;
+import com.teamalfa.blindvirologists.virologist.Virologist;
+import com.teamalfa.blindvirologists.virologist.backpack.ElementBank;
 
 public class StoreHouse extends Field {
 

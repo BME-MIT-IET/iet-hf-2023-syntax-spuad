@@ -1,12 +1,12 @@
-package main.java.com.teamalfa.GUI.view.view.fieldView;
+package com.teamalfa.GUI.view.view.fieldView;
 
-import main.java.com.teamalfa.GUI.view.panels.MapPanel;
-import main.java.com.teamalfa.GUI.view.view.VirologistView;
-import main.java.com.teamalfa.GUI.view.view.geneticCodeView.*;
-import main.java.com.teamalfa.blindvirologists.agents.genetic_code.*;
-import main.java.com.teamalfa.blindvirologists.city.fields.Laboratory;
-import main.java.com.teamalfa.blindvirologists.turn_handler.TurnHandler;
-import main.java.com.teamalfa.blindvirologists.virologist.Virologist;
+import com.teamalfa.GUI.view.panels.MapPanel;
+import com.teamalfa.GUI.view.view.VirologistView;
+import com.teamalfa.GUI.view.view.geneticCodeView.*;
+import com.teamalfa.blindvirologists.agents.genetic_code.*;
+import com.teamalfa.blindvirologists.city.fields.Laboratory;
+import com.teamalfa.blindvirologists.turn_handler.TurnHandler;
+import com.teamalfa.blindvirologists.virologist.Virologist;
 
 import java.awt.*;
 

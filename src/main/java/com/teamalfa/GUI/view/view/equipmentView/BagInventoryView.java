@@ -1,8 +1,8 @@
-package main.java.com.teamalfa.GUI.view.view.equipmentView;
+package com.teamalfa.GUI.view.view.equipmentView;
 
-import main.java.com.teamalfa.GUI.view.menus.EquipmentPopupMenu;
-import main.java.com.teamalfa.blindvirologists.equipments.Bag;
-import main.java.com.teamalfa.blindvirologists.turn_handler.TurnHandler;
+import com.teamalfa.GUI.view.menus.EquipmentPopupMenu;
+import com.teamalfa.blindvirologists.equipments.Bag;
+import com.teamalfa.blindvirologists.turn_handler.TurnHandler;
 
 import javax.swing.*;
 import java.awt.event.ActionEvent;

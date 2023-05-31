@@ -1,6 +1,6 @@
-package main.java.com.teamalfa.blindvirologists.agents;
+package com.teamalfa.blindvirologists.agents;
 
-import main.java.com.teamalfa.blindvirologists.agents.genetic_code.*;
+import com.teamalfa.blindvirologists.agents.genetic_code.*;
 
 import java.util.ArrayList;
 

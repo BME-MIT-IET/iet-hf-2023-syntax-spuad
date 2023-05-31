@@ -1,9 +1,9 @@
-package main.java.com.teamalfa.blindvirologists.agents;
+package com.teamalfa.blindvirologists.agents;
 
-import main.java.com.teamalfa.blindvirologists.agents.genetic_code.GeneticCode;
-import main.java.com.teamalfa.blindvirologists.turn_handler.Steppable;
-import main.java.com.teamalfa.blindvirologists.virologist.Virologist;
-import main.java.com.teamalfa.blindvirologists.virologist.backpack.ElementBank;
+import com.teamalfa.blindvirologists.agents.genetic_code.GeneticCode;
+import com.teamalfa.blindvirologists.turn_handler.Steppable;
+import com.teamalfa.blindvirologists.virologist.Virologist;
+import com.teamalfa.blindvirologists.virologist.backpack.ElementBank;
 
 /**
  * Abstract class that represents the agents in the game.

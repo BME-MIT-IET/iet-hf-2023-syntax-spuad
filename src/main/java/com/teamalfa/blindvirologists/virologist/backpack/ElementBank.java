@@ -1,4 +1,4 @@
-package main.java.com.teamalfa.blindvirologists.virologist.backpack;
+package com.teamalfa.blindvirologists.virologist.backpack;
 
 public class ElementBank {
     private int aminoAcid;

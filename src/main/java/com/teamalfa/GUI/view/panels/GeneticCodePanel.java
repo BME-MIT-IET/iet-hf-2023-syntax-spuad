@@ -1,8 +1,8 @@
-package main.java.com.teamalfa.GUI.view.panels;
+package com.teamalfa.GUI.view.panels;
 
-import main.java.com.teamalfa.GUI.view.view.geneticCodeView.*;
-import main.java.com.teamalfa.blindvirologists.agents.genetic_code.*;
-import main.java.com.teamalfa.blindvirologists.virologist.backpack.pockets.GeneticCodePocket;
+import com.teamalfa.GUI.view.view.geneticCodeView.*;
+import com.teamalfa.blindvirologists.agents.genetic_code.*;
+import com.teamalfa.blindvirologists.virologist.backpack.pockets.GeneticCodePocket;
 
 import javax.swing.*;
 import java.awt.*;

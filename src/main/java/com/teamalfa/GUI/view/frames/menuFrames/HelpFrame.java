@@ -1,4 +1,4 @@
-package main.java.com.teamalfa.GUI.view.frames.menuFrames;
+package com.teamalfa.GUI.view.frames.menuFrames;
 
 import javax.swing.*;
 import java.awt.*;

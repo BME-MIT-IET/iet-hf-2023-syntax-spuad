@@ -1,7 +1,7 @@
-package main.java.com.teamalfa.GUI.view.view.geneticCodeView;
+package com.teamalfa.GUI.view.view.geneticCodeView;
 
-import main.java.com.teamalfa.blindvirologists.agents.genetic_code.ParalyzeCode;
-import main.java.com.teamalfa.blindvirologists.turn_handler.TurnHandler;
+import com.teamalfa.blindvirologists.agents.genetic_code.ParalyzeCode;
+import com.teamalfa.blindvirologists.turn_handler.TurnHandler;
 
 import javax.swing.*;
 import java.awt.*;

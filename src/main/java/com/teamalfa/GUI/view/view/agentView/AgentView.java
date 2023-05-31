@@ -1,7 +1,7 @@
-package main.java.com.teamalfa.GUI.view.view.agentView;
+package com.teamalfa.GUI.view.view.agentView;
 
-import main.java.com.teamalfa.GUI.view.panels.AgentPanel;
-import main.java.com.teamalfa.GUI.view.view.View;
+import com.teamalfa.GUI.view.panels.AgentPanel;
+import com.teamalfa.GUI.view.view.View;
 
 import javax.swing.*;
 import java.awt.*;

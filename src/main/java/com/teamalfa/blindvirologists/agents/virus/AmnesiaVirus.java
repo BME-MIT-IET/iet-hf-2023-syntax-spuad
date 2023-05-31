@@ -1,8 +1,8 @@
-package main.java.com.teamalfa.blindvirologists.agents.virus;
+package com.teamalfa.blindvirologists.agents.virus;
 
-import main.java.com.teamalfa.blindvirologists.agents.genetic_code.AmnesiaCode;
-import main.java.com.teamalfa.blindvirologists.turn_handler.Game;
-import main.java.com.teamalfa.blindvirologists.virologist.Virologist;
+import com.teamalfa.blindvirologists.agents.genetic_code.AmnesiaCode;
+import com.teamalfa.blindvirologists.turn_handler.Game;
+import com.teamalfa.blindvirologists.virologist.Virologist;
 
 public class AmnesiaVirus extends Virus {
 

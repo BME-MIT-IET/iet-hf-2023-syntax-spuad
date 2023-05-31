@@ -1,4 +1,4 @@
-package main.java.com.teamalfa.blindvirologists.agents.virus;
+package com.teamalfa.blindvirologists.agents.virus;
 
 import java.util.Comparator;
 
